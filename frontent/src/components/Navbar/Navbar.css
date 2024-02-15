@@ -1,0 +1,28 @@
+.nav-list-non-bullet{
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4rem;
+}
+.nav-heading{
+ display: flex;
+ flex-direction: row;
+ justify-content:space-between;
+ height: 5rem;
+ background-color: brown;
+ align-items: center;
+}
+.nav-list-item-inline{
+   list-style: none;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.nav-heading-title-icon{
+    margin-left: 2rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}

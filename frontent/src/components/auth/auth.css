@@ -1,0 +1,143 @@
+.grid {
+    margin: 7rem 0 1rem 0;
+    display: grid;
+    place-content: center center;
+}
+
+.login-auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  width: 33rem;
+  background-color:#430f58;
+  color:white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+.auth-title {
+  text-align: center;
+  text-decoration:underline ;
+
+}
+
+.input {
+  width: 20rem;
+  margin: 4px 0;
+  height: 2rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  color:rgb(5, 142, 205);
+  margin-top:1.3rem ;
+}
+
+.form-input:focus {
+  outline: 1px solid black;
+}
+  
+.form-label {
+  padding: 0;
+  text-decoration: none;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.form-container {
+  margin: 1rem 0;
+  row-gap: 1rem;
+}
+
+.label-remember {
+  font-size: 1rem;
+  color: yellow;
+}
+
+.forgot-pass {
+  font-size: 1rem;
+  margin-left: auto;
+}
+
+.check-box {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 8px;
+}
+
+.login-btn {
+  width: 100%;
+  background-color:purple;
+  color: var(--text-color-primary);
+}
+.button
+{
+  background-color: purple;
+}
+
+.padding-small {
+  padding: .5rem 0;
+}
+
+.create-account {
+  margin: 1rem 0;
+}
+
+.new-account {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.create-acc {
+  text-decoration: none;
+  color: green;
+}
+
+.pwd-icon-position {
+  top: 2rem;
+  right: 0.5rem;
+}
+
+.pass-check-text {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  color: magenta;
+  width: max-content;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+
+.sign-up-btn[disabled]:hover {
+  cursor: none;
+  background-color: maroon;
+  color: khaki;
+}
+
+.check-box {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.btn-outline-primary {
+  color:navy;
+  background-color: purple;
+  border: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-outline-primary:hover {
+  color: goldenrod;
+  background-color:rebeccapurple;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+@import url("https://uilight.netlify.app/main.css");
+
+
+body{
+    background-color: #27296d;
+    overflow: hidden;
+    margin: 0;
+    padding: 0%;
+}
+.heading
+{
+        margin-top: 0;
+        display:flex;
+        background-color: #272343;
+        height:6rem;
+        padding: 0.5rem 3rem;
+        border-bottom: 1 px solid rgba(0,0,0,0.1);
+        width: 100vw;
+        color: white;
+    }
+    a{
+        color: white;
+    }
+    .position
+    {
+        margin-left: 70rem;
+padding-top: 3rem;  
+  }
+    .position2
+    {
+        margin-left: 65rem;
+padding-top: 3rem;  
+  }
